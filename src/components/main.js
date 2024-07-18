@@ -26,6 +26,12 @@ const Main = () => {
             <Col span={8} className='calenderRight'>
                 <DatePicker/>
             </Col>
+            <Col span={16} className='meetingInfo'>
+                <MeetingInfo/>
+            </Col>
+            <Col span={8} className='calenderRight'>
+                <DatePicker/>
+            </Col>
         </Row>
     </section>
   )
