@@ -1,0 +1,138 @@
+.meeting-card {
+    border-radius: 8px;
+    height: 100%;
+}
+.meeting-card .ant-card-head {
+    overflow: hidden;
+  }
+  
+  .meeting-card .ant-card-body {
+    overflow: scroll !important; 
+  }
+.scrollable-container{
+    width: max-content;
+}
+.meetingHeading {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.moreIcon {
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.personInfo {
+    border: 1px solid #D6D6D6;
+}
+
+.personLeftMenu {
+    border-right: 1px solid #D6D6D6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.person {
+    height: 70px;
+}
+
+.personName {
+    color: #091316;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.personDesignation {
+    color: #091316;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.personNameAndDes {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.calenderCol {
+    border-right: 1px solid #D6D6D6;
+}
+
+.iconCalAndClock {
+    height: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.calendarDate,
+.calenderClock {
+    color: #0A66C2;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.firstCol {
+    border-right: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+    padding: 6px;
+    text-align: start;
+    color: #091316;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+.secondCol {
+    border-bottom: 1px solid #D6D6D6;
+    padding: 6px;
+    text-align: start;
+    color: #091316;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+.ant-row-middle {
+    text-align: start;
+}
+
+.joinCol,
+.rescheduleCol {
+    margin-top: 18px;
+}
+
+.reschedule-btn {
+    border: 1px solid #0A66C2;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0A66C2;
+    margin-right: 5px;
+}
+
+.join-btn {
+    border: none;
+    background-color: #0A66C2;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+.join-btn:hover {
+    border: none;
+    background-color: #0A66C2 !important;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF !important;
+    margin-left: 5px;
+
+}

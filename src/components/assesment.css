@@ -1,0 +1,43 @@
+.assementCard {
+    background: linear-gradient(to right, #0A66C2 20%, #5994CE 80%);
+    padding: 10px;
+    position: relative; 
+  }
+.listIcon{
+    background-color: #fff;
+    padding: 10px;
+    height: 80px;
+}  
+.number{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.newAss{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.girl-container {
+    position: relative;
+    overflow: visible;
+  }
+  
+  .girl-image {
+    position: absolute;
+    top: -80px;
+    left: 150px; 
+    height: 250px; 
+  }
+  .ViewButton{
+    margin-top: 10px !important;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 3px;
+  }

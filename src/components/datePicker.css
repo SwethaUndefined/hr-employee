@@ -1,0 +1,11 @@
+.ant-picker-content th{
+    padding: 10px;
+    color: #0B74AD !important;
+}
+
+.ant-picker-content td{
+    color:#000000;
+}
+.calender{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,30 @@
+.sider {
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    height: 84vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    position: fixed;
+    top: 80;
+    left: 0;
+  }
+  
+  .icon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  
+  .icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    color: #717577;
+    margin-bottom: 10px;
+  }
+  
+  .icon:hover {
+    color: #1890ff; 
+  }
+  

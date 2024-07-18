@@ -1,0 +1,35 @@
+.chartCardHeading {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .ant-select-selector {
+    border-radius: 0px !important;
+    border: 1px solid #0A66C2 !important;
+  }
+  
+  .received,
+  .processed {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .squareBox {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 5px;
+    border-radius: 3px;
+  }
+  
+  .receivedBox {
+    background-color: #277ACC;
+  }
+  
+  .processedBox {
+    background-color: #002B55BD;
+  }
+  

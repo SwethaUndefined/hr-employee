@@ -1,0 +1,47 @@
+.header {
+  background-color: #ffffff;
+  height: 65px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 60px;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.input {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  margin-top: 6px;
+  width: 400px;
+}
+
+.input:focus {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+.headerIcons {
+  margin-top: 25px;
+}
+
+.headerIcon {
+  font-size: 20px;
+  color: #8e8e8e;
+  margin-right: 40px;
+}
+
+.profile {
+  height: 30px;
+  margin-top: 18px;
+  border-radius: 50%;
+}
+
+.searchIcon {
+  color: #717577;
+}
