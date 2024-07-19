@@ -1,8 +1,12 @@
+.chartCard {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 8px; 
+}
 .chartCardHeading {
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-  }
+}
   
   .ant-select-selector {
     border-radius: 0px !important;

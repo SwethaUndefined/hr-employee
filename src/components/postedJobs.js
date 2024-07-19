@@ -43,14 +43,16 @@ const PostedJobs = () => {
       <Row>
         <Col span={24} className="positionCol">
           <Typography className="designation">Senior Developers</Typography>
-          <div>
+          <Row>
+            <Col span={24} className="applicationCount">
             <Typography
               className="applicationCount"
               style={{ backgroundColor: backgroundColor, color: countColor }}
             >
               258
             </Typography>
-          </div>
+            </Col>
+          </Row>
           <Typography className="application">Total Applicants</Typography>
         </Col>
       </Row>

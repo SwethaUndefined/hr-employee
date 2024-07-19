@@ -1,0 +1,94 @@
+.upcomings{
+    padding: 10px;
+}
+
+.upcomings .upcomingHeading {
+    color: #3E3E3E;
+    font-size: 400;
+    font-size: 15px;
+}
+
+.upcomingsViewAll {
+    color: #0A66C2;
+    text-decoration: underline;
+    text-decoration-color: #0A66C2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.upcomingsList{
+    margin-left: 10px;
+}
+.upcomingsListItem {
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 3px;
+    flex: 0 0 auto; 
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.middleSide {
+    padding: 10px;
+    flex: 1; 
+}
+
+.description {
+    font-size: 12px !important;
+    color: #3E3E3E;
+    font-weight: 400;
+}
+
+.creator {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.createdBy {
+    color: #3E3E3E; 
+    font-size: 11px;
+}
+
+.creatorName {
+    color: #0B74AD; 
+    font-size: 11px;
+}
+
+.time {
+    font-size: 10px !important;
+    color: #3E3E3E;
+    font-weight: 300;
+}
+
+.rightSide {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.detailsButton {
+    color: #ffffff;
+    background-color: #0A66C2;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+}

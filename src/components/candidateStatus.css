@@ -1,3 +1,6 @@
+.candidateStatus{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
 .candidateStatus .ant-table-thead{
   color: #3E3E3E !important;
   font-size: 12px !important;

@@ -1,0 +1,22 @@
+.hiringCandidates .HiringHeading{
+    color: #3E3E3E;
+    font-size: 400;
+    font-size: 15px;
+}
+.HiringViewAll{
+    color: #0A66C2;
+    text-decoration: underline;
+    text-decoration-color: #0A66C2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.hiringCandidates{
+    padding: 10px;
+}
+.hiringDetails{
+    border: 1px solid #0A66C2;
+    color: #0A66C2;
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -1,3 +1,6 @@
+.postedJobs{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
 .postedJobs .ant-card-body {
     padding: 4px 12px 12px 12px;
 }
@@ -83,6 +86,7 @@
     justify-content: center;
     flex-direction: column !important;
     text-align: center !important;
+    padding: 16px;
   }
   .designation , .application{
     color: #091316;
@@ -91,15 +95,14 @@
   }
   .applicationCount{
     width: 80px;
-    background-color: #D9E4EF;
     color: #0A66C2;
     font-size: 26px;
     font-weight: 600;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 40px;
     border-radius: 3px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
   }
 .arrowIcon{
     font-size: 10px;

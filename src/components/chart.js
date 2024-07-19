@@ -75,6 +75,7 @@ const Chart = () => {
               ]}
             />
           }
+          className="chartCard"
         >
           <ResponsiveContainer width="100%" height={200}>
             <ComposedChart data={data}>
