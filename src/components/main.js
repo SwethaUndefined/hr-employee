@@ -5,7 +5,8 @@ import Chart from './chart';
 import Assesment from './assesment';
 import MeetingInfo from './meetingInfo';
 import DatePicker from './datePicker';
-
+import PostedJobs from './postedJobs';
+import  CandidateStatus  from './candidateStatus';
 const Main = () => {
   return (
     <section>
@@ -20,17 +21,25 @@ const Main = () => {
             <Col span={10} className='chart'>
                 <Assesment/>
             </Col>
-            <Col span={16} className='meetingInfo'>
-                <MeetingInfo/>
+            <Col span={18} >
+               <Row>
+                <Col span={24} className='meetingInfo'>
+                <MeetingInfo />
+                </Col>
+                <Col span={24}  className="postedJobsLeft">
+                <PostedJobs/>
+                </Col>
+                <Col span={24} className='candidateStatusLeft'>
+                    <CandidateStatus/>
+                </Col>
+               </Row>
             </Col>
-            <Col span={8} className='calenderRight'>
-                <DatePicker/>
-            </Col>
-            <Col span={16} className='meetingInfo'>
-                <MeetingInfo/>
-            </Col>
-            <Col span={8} className='calenderRight'>
-                <DatePicker/>
+            <Col span={6}>
+                <Row>
+                    <Col span={24}  className='calenderRight'>
+                    <DatePicker/>
+                    </Col>
+                </Row>
             </Col>
         </Row>
     </section>

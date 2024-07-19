@@ -16,7 +16,7 @@ const DatePicker = () => {
           <Row style={{ padding: 8 }}>
             <Col span={2}><LeftOutlined /></Col>
             <Col span={20} align="center">
-            <Typography>March</Typography>
+            <Typography>March 2024</Typography>
             </Col>
             <Col span={2}><RightOutlined /></Col>
           </Row>

@@ -1,0 +1,125 @@
+.postedJobs .ant-card-body {
+    padding: 4px 12px 12px 12px;
+}
+.postedJobsHeading{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.viewAll{
+    color: #0A66C2;
+    text-decoration: underline;
+    text-decoration-color: #0A66C2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.viewAll:hover{
+    color: #0A66C2 !important;
+    text-decoration: underline;
+    text-decoration-color: #0A66C2 !important;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.postedJobsSearch {
+    width: 350px;
+  }
+  
+  
+.postedJobs .ant-card-head {
+    border-bottom: none;
+}
+
+.custom-tabs .ant-tabs-nav {
+    border-bottom: 1px solid #3E3E3E; 
+  }
+  
+  .custom-tabs .ant-tabs-tab {
+    background-color: transparent; 
+    color: #3E3E3E !important; 
+    padding: 10px;
+  }
+  
+  .custom-tabs .ant-tabs-tab-active,
+  .custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+    background-color: #DBEAF3;
+    color: #3E3E3E !important;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .custom-tabs .ant-tabs-tab:hover {
+    color: #3E3E3E; 
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .custom-tabs .ant-tabs-tab-btn {
+    font-size: 14px;
+    font-weight: 200;
+    color: #3E3E3E !important;
+  }
+  .active-job-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .langIcons{
+    height: 15px;
+    margin-top: 4px;
+  }
+  .jobtitle , .jobNumber{
+    color: #091316;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .active-job-card .ant-card-head{
+    border-bottom: 1px solid  #D6D6D6;
+    padding: 0px 12px;
+  }
+  .positionCol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .designation , .application{
+    color: #091316;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .applicationCount{
+    width: 80px;
+    background-color: #D9E4EF;
+    color: #0A66C2;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-radius: 3px;
+  }
+.arrowIcon{
+    font-size: 10px;
+    color: #0A66C2;
+    margin-right: 2px;
+    margin-left: 4px;
+}
+.minAgo{
+    color: #3E3E3E;
+    font-size: 9px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.percentage{
+    color: #0A66C2;
+    font-size: 9cqi;
+    font-weight: 300;
+}
+.lastMonth{
+    color: #3E3E3E;
+    font-size: 9px;
+    font-weight: 300;
+}

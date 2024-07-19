@@ -1,6 +1,5 @@
 .main{
   margin: 0px 5px !important;
-  overflow: scroll;
 }
 .mainHeader{
     color: #3E3E3E;
@@ -20,5 +19,11 @@
   margin-top: 20px !important;
 }
 .calenderRight{
+  margin-top: 20px !important;
+}
+.postedJobsLeft{
+  margin-top: 20px !important;
+}
+.candidateStatusLeft{
   margin-top: 20px !important;
 }

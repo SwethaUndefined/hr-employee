@@ -1,3 +1,26 @@
-.header{
-    margin-bottom: 40px;
-}
+.dashboard {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff;
+  }
+  
+  .content {
+    margin-top: 65px; 
+    height: calc(100vh - 65px); 
+    overflow-y: auto;
+  }
+  
+  .main-content {
+    overflow-y: auto;
+    padding: 20px;
+    height: 100%;
+  }
+  

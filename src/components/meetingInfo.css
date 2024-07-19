@@ -1,6 +1,5 @@
 .meeting-card {
     border-radius: 8px;
-    height: 100%;
 }
 .meeting-card .ant-card-head {
     overflow: hidden;
@@ -16,7 +15,6 @@
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-    margin-bottom: 8px;
 }
 
 .moreIcon {
