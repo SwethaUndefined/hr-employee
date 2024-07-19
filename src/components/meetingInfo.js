@@ -56,7 +56,7 @@ const MeetingInfo = () => {
                 <Typography className="secondCol">Interviewer: Stella</Typography>
                     <Typography className="secondCol">Interviewer: Smith</Typography>
                     <Typography className="secondCol">Interviewer: <span style={{color:"#0A66C2"}}>Stephan</span></Typography>
-                    <Typography className="secondCol">Interviewer: Johnson</Typography>
+                    <Typography className="secondCol">Attendees: Johnson</Typography>
                 </Col>
                 <Col span={12} align="end" className="rescheduleCol">
                     <Button className="reschedule-btn">Reschedule Meeting</Button>
@@ -103,7 +103,7 @@ const MeetingInfo = () => {
                 <Typography className="secondCol">Interviewer: Stella</Typography>
                     <Typography className="secondCol">Interviewer: Smith</Typography>
                     <Typography className="secondCol">Interviewer: <span style={{color:"#0A66C2"}}>Stephan</span></Typography>
-                    <Typography className="secondCol">Interviewer: Johnson</Typography>
+                    <Typography className="secondCol">Attendees: Johnson</Typography>
                 </Col>
                 <Col span={12} align="end" className="rescheduleCol">
                     <Button className="reschedule-btn">Reschedule Meeting</Button>

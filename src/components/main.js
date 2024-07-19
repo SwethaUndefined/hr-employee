@@ -22,38 +22,39 @@ const Main = () => {
             System.
           </Typography>
         </Col>
-        <Col xs={24} sm={24} md={14} lg={14} xl={14} className="chart">
+        <Col span={14} className="chart">
           <Chart />
         </Col>
-        <Col xs={24} sm={24} md={10} lg={10} xl={10} className="chart">
+        <Col span={10} className="chart">
           <Assesment />
         </Col>
-        <Col xs={24} sm={24} md={18} lg={18} xl={18}>
-          <Row gutter={[16, 16]}>
-            <Col xs={24} className="meetingInfo">
+        <Col span={18}>
+          <Row>
+            <Col span={24} className="meetingInfo">
               <MeetingInfo />
             </Col>
-            <Col xs={24} className="postedJobsLeft">
+            <Col span={24} className="postedJobsLeft">
               <PostedJobs />
             </Col>
-            <Col xs={24} className="candidateStatusLeft">
+            <Col span={24} className="candidateStatusLeft">
               <CandidateStatus />
             </Col>
           </Row>
         </Col>
-        <Col xs={24} sm={24} md={6} lg={6} xl={6}>
-          <Row gutter={[16, 16]}>
-            <Col xs={24} className="calenderRight">
+        <Col span={6}>
+          <Row>
+            <Col span={24} className="calenderRight">
               <DatePicker />
             </Col>
-            <Col xs={24} className="upcomingsRight">
+            
+            <Col span={24} className="upcomingsRight">
               <Upcomings />
             </Col>
-            <Col xs={24} className="activityRight">
-              <Activity />
+            <Col span={24}>
+              <Activity/>
             </Col>
-            <Col xs={24} className="hiringCandidatesRight">
-              <HiringCandidates />
+            <Col span={24} className="hiringCandidatesRight">
+              <HiringCandidates/>
             </Col>
           </Row>
         </Col>
