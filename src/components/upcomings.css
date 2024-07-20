@@ -9,6 +9,14 @@
 }
 
 .upcomingsViewAll {
+    color: #0A66C2 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #0A66C2 !important; 
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.upcomingsViewAll:hover {
     color: #0A66C2;
     text-decoration: underline;
     text-decoration-color: #0A66C2;
@@ -92,3 +100,12 @@
     font-weight: 400;
     border-radius: 3px;
 }
+.detailsButton:hover {
+    color: #ffffff !important;
+    background-color: #0A66C2 !important;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
