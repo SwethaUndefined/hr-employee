@@ -28,6 +28,7 @@
 
 .headerIcons {
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .headerIcon {

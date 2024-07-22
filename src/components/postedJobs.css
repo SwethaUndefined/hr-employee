@@ -6,33 +6,47 @@
 }
 .postedJobsHeading{
     color: #000000;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 28px;
     margin-top: 20px;
 }
 .viewAll{
     color: #0A66C2;
     text-decoration: underline;
     text-decoration-color: #0A66C2;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
-    margin-top: 16px;
+    margin-top: 28px;
 }
 .viewAll:hover{
     color: #0A66C2 !important;
     text-decoration: underline;
     text-decoration-color: #0A66C2 !important;
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 16px;
 }
-.postedJobsSearch {
-    width: 350px;
+.postedJobsinput {
+  border:none;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  margin-top: 13px;
+  width: 400px;
   }
-  
-  
+  .filter{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    border: none;
+    border-radius: 3px;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 18px;
+  }
+  .searchIcon{
+  height: 15px;
+    cursor: pointer;
+  }
 .postedJobs .ant-card-head {
     border-bottom: none;
+    padding-bottom: 10px;
 }
 
 .custom-tabs .ant-tabs-nav {
@@ -49,19 +63,19 @@
   .custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
     background-color: #DBEAF3;
     color: #3E3E3E !important;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 400;
   }
   
   .custom-tabs .ant-tabs-tab:hover {
     color: #3E3E3E; 
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 400;
   }
   
   .custom-tabs .ant-tabs-tab-btn {
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 400;
     color: #3E3E3E !important;
   }
   .active-job-card {
@@ -70,12 +84,12 @@
   }
   .langIcons{
     height: 15px;
-    margin-top: 4px;
+    margin-top: 6px;
   }
   .jobtitle , .jobNumber{
     color: #091316;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 15px;
+    font-weight: 400;
   }
   .active-job-card .ant-card-head{
     border-bottom: 1px solid  #D6D6D6;
@@ -89,14 +103,14 @@
     padding: 16px;
   }
   .designation , .application{
-    color: #091316;
+    color: #091316 !important;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
   }
   .applicationCount{
     width: 80px;
     color: #0A66C2;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 600;
     padding: 10px;
     border-radius: 3px;
@@ -112,17 +126,17 @@
 }
 .minAgo{
     color: #3E3E3E;
-    font-size: 9px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 400;
     margin-right: 10px;
 }
 .percentage{
     color: #0A66C2;
-    font-size: 9cqi;
+    font-size: 9px;
     font-weight: 300;
 }
 .lastMonth{
     color: #3E3E3E;
-    font-size: 9px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 400;
 }

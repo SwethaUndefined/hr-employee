@@ -15,7 +15,7 @@
 .meetingHeading {
     color: #000000;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .moreIcon {
@@ -40,13 +40,13 @@
 
 .personName {
     color: #091316;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .personDesignation {
     color: #091316;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -68,7 +68,7 @@
 .calendarDate,
 .calenderClock {
     color: #0A66C2;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 400;
     text-align: center;
 }
@@ -79,7 +79,7 @@
     padding: 6px;
     text-align: center;
     color: #091316;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -88,7 +88,7 @@
     padding: 6px;
     text-align: center;
     color: #091316;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -114,7 +114,7 @@
     border: none;
     background-color: #0A66C2;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     color: #FFFFFF;
     margin-left: 5px;
@@ -127,7 +127,7 @@
     border: none;
     background-color: #0A66C2 !important;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     color: #FFFFFF !important;
     margin-left: 5px;

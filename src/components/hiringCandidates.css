@@ -1,23 +1,23 @@
 .hiringCandidates .HiringHeading{
     color: #3E3E3E;
-    font-size: 400;
-    font-size: 15px;
+    font-size: 500;
+    font-size: 22px;
 }
 .HiringViewAll{
     color: #0A66C2;
     text-decoration: underline;
     text-decoration-color: #0A66C2;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     margin-top: 5px;
 }
 .HiringViewAll:hover{
     color: #0A66C2 !important;
     text-decoration: underline !important;
     text-decoration-color: #0A66C2 !important; 
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
 }
 .hiringCandidates{
     padding: 10px;
@@ -27,4 +27,27 @@
     color: #0A66C2;
     font-size: 12px;
     font-weight: 400;
+}
+.hiringCandidatesAvatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.hiringCandidatesName{
+    color: #3E3E3E;
+    font-size: 12px;
+    font-weight: 500;
+}
+.hiringCandidatesDescription{
+    font-size: 11px;
+    color: #3E3E3E;
+    font-weight: 400;
+}
+.hiredBy{
+    color: #3E3E3E;
+    font-size: 9px;
+    font-weight: 400;
+}
+.hiringCandidatesList .ant-list-item-meta-title{
+margin: 0px !important;
 }

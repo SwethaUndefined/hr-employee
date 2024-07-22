@@ -25,6 +25,12 @@ const HiringCandidates = () => {
           hiredBy: "Hired by Stella",
           avatar: user3,
         },
+        {
+          title: "Amy Jacks",
+          designation: "Java Developer",
+          hiredBy: "Hired by Stella",
+          avatar: user1,
+        },
       ];
       return (
         <Row>
@@ -46,22 +52,22 @@ const HiringCandidates = () => {
                 >
                   <List.Item.Meta
                     avatar={
-                      <img src={item.avatar} alt="avatar" className="avatar" />
+                      <img src={item.avatar} alt="avatar" className="hiringCandidatesAvatar" />
                     }
                     title={
                       <>
-                        <Typography.Text className="name">
+                        <Typography.Text className="hiringCandidatesName">
                           {item.title}
                         </Typography.Text>
                       </>
                     }
                     description={
                       <>
-                        <div className="description">{item.designation}</div>
-                        <div className="time">{item.hiredBy}</div>
+                        <div className="hiringCandidatesDescription">{item.designation}</div>
+                        <div className="hiredBy">{item.hiredBy}</div>
                       </>
                     }
-                    className="activityList"
+                    className="hiringCandidatesList"
                   />
                 </List.Item>
               )}

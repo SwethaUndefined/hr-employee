@@ -10,13 +10,13 @@
 }  
 .number{
     color: #fff;
-    font-size: 30px;
+    font-size: 56px;
     font-weight: 600;
     margin-top: 20px;
 }
 .newAss{
     color: #fff;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 500;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,11 +33,16 @@
     height: 250px; 
   }
   .ViewButton{
-    margin-top: 10px !important;
+    margin-top: 16px !important;
     background-color: #FFFFFF;
     border: none;
     color: #000000;
     font-weight: 500;
     font-size: 14px;
     border-radius: 3px;
+  }
+  .ViewButton:hover{
+   
+    color: #000000 !important;
+
   }

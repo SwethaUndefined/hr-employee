@@ -1,7 +1,7 @@
 .sider {
   background-color: #ffffff;
   border-top-right-radius: 10px;
-  padding: 20px !important;
+  padding: 20px 10px 10px 10px !important;
   height: 84vh;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -17,7 +17,8 @@
 }
 
 .icon {
-  font-size: 24px;
+  width: 50px;
+  height: 25px;
   cursor: pointer;
   transition: color 0.3s;
   color: #002B55BD;

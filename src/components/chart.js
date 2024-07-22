@@ -14,18 +14,18 @@ import "./chart.css";
 
 const Chart = () => {
   const data = [
-    { name: "Jan", uv: 1000, pv: 2400 },
-    { name: "Feb", uv: 2000, pv: 1398 },
-    { name: "Mar", uv: 3000, pv: 3800 },
-    { name: "Apr", uv: 4000, pv: 3908 },
-    { name: "May", uv: 1000, pv: 4800 },
-    { name: "Jun", uv: 2000, pv: 3800 },
-    { name: "Jul", uv: 3000, pv: 1500 },
-    { name: "Aug", uv: 4000, pv: 2500 },
-    { name: "Sep", uv: 1000, pv: 3400 },
-    { name: "Oct", uv: 2000, pv: 3000 },
-    { name: "Nov", uv: 3000, pv: 3800 },
-    { name: "Dec", uv: 4000, pv: 2000 },
+    { name: "Jan", uv: 2000, pv: 2400 },
+    { name: "Feb", uv: 800, pv: 2800 },
+    { name: "Mar", uv: 1500, pv: 3200 },
+    { name: "Apr", uv: 2900, pv: 2700 },
+    { name: "May", uv: 3400, pv: 3600 },
+    { name: "Jun", uv: 1900, pv: 2200 },
+    { name: "Jul", uv: 300, pv: 3100 },
+    { name: "Aug", uv: 2000, pv: 2200 },
+    { name: "Sep", uv: 3700, pv: 3900 },
+    { name: "Oct", uv: 2000, pv: 800 },
+    { name: "Nov", uv: 600, pv: 2600 },
+    { name: "Dec", uv: 2000, pv: 3600 },
   ];
 
   return (
@@ -77,18 +77,34 @@ const Chart = () => {
           }
           className="chartCard"
         >
-          <ResponsiveContainer width="100%" height={200}>
+          <ResponsiveContainer width="100%" height={253}>
             <ComposedChart data={data}>
-              <XAxis dataKey="name" />
+              <XAxis dataKey="name"
+              tick={{ 
+                fontSize: '14px', 
+                fontWeight: 400, 
+                fill: '#091316' 
+              }} />
               <YAxis
                 domain={[0, 4000]} 
-                tick={{ dy: -8 }}
+                tick={{ 
+                  fontSize: '14px', 
+                  fontWeight: 400, 
+                  fill: '#091316', 
+                }}
                 ticks={[1000, 2000, 3000, 4000]}
               />
               <Tooltip />
               <Legend />
               <Bar dataKey="pv" barSize={20} fill="#277ACC" />
-              <Line type="monotone" dataKey="uv" stroke="#002B55" />
+              <Line 
+            type="monotone"
+            dataKey="uv"
+            stroke="#002B55"
+            strokeWidth={2}
+            dot={false}
+            connectNulls={true}
+            isAnimationActive={false} />
             </ComposedChart>
           </ResponsiveContainer>
         </Card>

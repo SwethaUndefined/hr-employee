@@ -1,65 +1,66 @@
-.activity .activityHeading{
-    color: #3E3E3E;
-    font-size: 400;
-    font-size: 15px;
+.activity .activityHeading {
+  color: #3E3E3E;
+  font-size: 500;
+  font-size: 22px;
 }
-.activityList{
+
+.activityList {
   margin-left: 10px;
 }
-.activityViewAll{
-    color: #0A66C2;
-    text-decoration: underline;
-    text-decoration-color: #0A66C2;
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 5px;
-}
-.activityViewAll:hover{
-  color: #0A66C2 !important;
-  text-decoration: underline !important;
-  text-decoration-color: #0A66C2 !important; 
-  font-size: 14px;
-  font-weight: 500;
+
+.activityViewAll {
+  color: #0A66C2;
+  text-decoration: underline;
+  text-decoration-color: #0A66C2 !important;
+  font-size: 16px;
+  font-weight: 400;
   margin-top: 5px;
 }
 
-.activity{
+.activityViewAll:hover {
+  color: #0A66C2 !important;
+  text-decoration: underline !important;
+  text-decoration-color: #0A66C2 !important;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.activity {
   padding: 10px;
 }
-  .avatar{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-  }
-  .name {
-    color: #3E3E3E;
-    font-size: 12px;
-    font-weight: 500;
-  }
-  
-  .designation {
-    color: #0A66C2; 
-    font-size: 12px;
-    font-weight: 400;
-  }
-  .description{
-    font-size: 11px;
-    color: #3E3E3E;
-    font-weight: 400;
-  }
-  .time {
-    color: #3E3E3E;
-    font-size: 9px;
-    font-weight: 400;
-  }
-  .ant-list-item {
-    border-bottom: none !important;
-  }
 
-  .activity .hiringDetails {
-    color: #0A66C2 !important;
-    border: 1px solid #0A66C2 !important;
-    font-size: 12px !important;
-    font-weight: 400 !important;
-    border-radius: 3px !important;
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
+
+.name {
+  color: #3E3E3E;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.designation {
+  color: #0A66C2 !important;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 11px;
+  color: #3E3E3E;
+  font-weight: 400;
+}
+
+.time {
+  color: #3E3E3E;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+.ant-list-item {
+  border-bottom: none !important;
+}
+

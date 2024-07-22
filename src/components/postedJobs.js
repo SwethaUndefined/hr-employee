@@ -1,15 +1,17 @@
 import React from "react";
-import { Row, Col, Typography, Tabs, Card, Button } from "antd";
+import { Row, Col, Typography, Tabs, Card, Button,Input } from "antd";
 import "./postedJobs.css";
-import searchAndFilter from "../assests/searchAndFilter.svg";
+import filter from "../assests/filter.svg";
 import python from "../assests/python.svg";
 import Angular from "../assests/Angular.svg";
 import java from "../assests/java.svg";
 import uiux from "../assests/uiux.svg";
+import searchIcon from "../assests/searchIcon.svg";
 
-import { ArrowUpOutlined } from "@ant-design/icons";
+import { ArrowUpOutlined,SearchOutlined } from "@ant-design/icons";
 
 const { TabPane } = Tabs;
+const {Search} = Input;
 
 const PostedJobs = () => {
   const renderJobCard = (imgSrc, jobTitle, backgroundColor, countColor,jobNumber) => (
@@ -63,7 +65,7 @@ const PostedJobs = () => {
     <Card
       title={
         <Row>
-          <Col span={4}>
+          <Col span={6}>
             <Typography className="postedJobsHeading">Posted Jobs</Typography>
           </Col>
           <Col span={4}>
@@ -71,18 +73,19 @@ const PostedJobs = () => {
               View All
             </Button>
           </Col>
-          <Col span={6}></Col>
-          <Col span={10}>
-            <img
-              src={searchAndFilter}
-              alt="search"
-              className="postedJobsSearch"
+          <Col span={4} className="search">
+            <Input
+              size="large"
+              placeholder="search"
+              suffix={<img src={searchIcon} className="searchIcon"/>}
+              className="postedJobsinput"
             />
           </Col>
         </Row>
       }
       bordered={false}
       className="postedJobs"
+      extra={<Button className="filter"><img src={filter} alt="filter"/>Filters</Button>}
     >
       <Row>
         <Col span={24}>

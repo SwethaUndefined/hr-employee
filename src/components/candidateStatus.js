@@ -1,9 +1,10 @@
 import React from "react";
 import "./candidateStatus.css";
-import { Row, Col, Typography, Table, Card, Button, Tag } from "antd";
-import searchAndFilter from "../assests/searchAndFilter.svg";
+import { Row, Col, Typography, Table, Card, Button, Tag,Input } from "antd";
+import searchIcon from "../assests/searchIcon.svg";
+import filter from "../assests/filter.svg";
 import { EyeOutlined, EllipsisOutlined,CloseCircleOutlined } from "@ant-design/icons";
-
+const {Search} = Input;
 const CandidateStatus = () => {
   const columns = [
     {
@@ -179,7 +180,7 @@ const CandidateStatus = () => {
     <Card
       title={
         <Row>
-          <Col span={4}>
+          <Col span={8}>
             <Typography className="candidateStatusHeading">
               Candidate Status
             </Typography>
@@ -189,18 +190,19 @@ const CandidateStatus = () => {
               View All
             </Button>
           </Col>
-          <Col span={6}></Col>
-          <Col span={10}>
-            <img
-              src={searchAndFilter}
-              alt="search"
-              className="candidateStatusSearch"
+          <Col span={4} className="search">
+            <Input
+              size="large"
+              placeholder="search"
+              suffix={<img src={searchIcon} className="searchIcon"/>}
+              className="candidateInput"
             />
           </Col>
         </Row>
       }
       bordered={false}
       className="candidateStatus"
+      extra={<Button className="candidateFilter"><img src={filter} alt="filter" />Filters</Button>}
     >
       <Row>
         <Col span={24}>
